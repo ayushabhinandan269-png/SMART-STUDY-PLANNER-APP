@@ -1,16 +1,133 @@
-# React + Vite
+📚 Smart Study Planner------------------------------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive study planning web application built using AI-powered development tools.
+Designed to help students and professionals organize tasks efficiently, track progress visually, and stay productive.
 
-Currently, two official plugins are available:
+🚀 Live Demo-------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live App: (Add your Vercel link here)
 
-## React Compiler
+🎯 Why I Built This----------------------------------------------------------
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built Smart Study Planner to solve a common problem: managing study tasks across multiple subjects while staying aware of deadlines and overall progress.
 
-## Expanding the ESLint configuration
+Most basic todo apps lack:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Subject categorization
+
+Visual progress tracking
+
+Deadline awareness
+
+Clean, motivating UI
+
+This app focuses on clarity, productivity, and clean design.
+
+✨ Features----------------------------------------------
+📌 Task Management
+
+Add new tasks
+
+Edit existing tasks
+
+Delete tasks
+
+Mark tasks as complete
+
+Set deadline for each task
+
+Assign subject/category
+
+Set priority (Low / Medium / High)
+
+📊 Smart Progress Tracking----------------------------------------
+
+Automatic completion percentage
+
+Animated progress bar
+
+Dashboard statistics:
+
+Total tasks
+
+Completed tasks
+
+Pending tasks
+
+⏰ Deadline Awareness------------------------------------------------
+
+Overdue tasks automatically highlighted
+
+Clear visual indicators
+
+🎨 UI & UX-----------------------------------------------------
+
+Modern SaaS-style design
+
+Blue-purple professional theme
+
+Smooth animations
+
+Soft shadows & rounded cards
+
+Clean typography
+
+Fully responsive (mobile-friendly)
+
+Dark / Light mode toggle
+
+💾 Data Persistence-----------------------------------------------
+
+Local storage support
+
+Tasks remain saved after page refresh
+
+🛠️ Tech Stack----------------------------------------------
+
+Frontend: React / Next.js (update based on your build)
+
+Styling: CSS / Tailwind (update if needed)
+
+Deployment: Vercel
+
+Built using: Antigravity Studio (AI-powered development tool)
+
+🧠 How It Works---------------------------------------------
+
+Users create study tasks with subject and deadline.
+
+Tasks are stored in browser local storage.
+
+Completion status dynamically updates:
+
+Progress percentage
+
+Progress bar animation
+
+Dashboard statistics
+
+Overdue tasks are automatically detected using date comparison logic.
+
+📦 Installation (For Local Setup)-----------------------------------------
+
+If someone wants to run locally:
+
+git clone <https://github.com/ayushabhinandan269-png/SMART-STUDY-PLANNER-APP.git>
+cd smart-study-planner
+npm install
+npm run dev
+
+
+🌍 Deployment--------------------------
+
+The app is deployed using Vercel.
+
+Steps:
+
+Push project to GitHub
+
+Import repository in Vercel
+
+Auto-detect framework
+
+Deploy link : https://smart-study-planner-app-delta.vercel.app/
